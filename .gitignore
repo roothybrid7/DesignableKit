@@ -1,7 +1,7 @@
 .DS_Store
 /.build
 /Packages
-/*.xcodeproj
+#/*.xcodeproj
 ### https://raw.github.com/github/gitignore/d74a7f317c24e8f2c8adca3e7d8484b94f738c9a/Objective-C.gitignore
 
 # Xcode
