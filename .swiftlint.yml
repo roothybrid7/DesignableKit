@@ -1,0 +1,16 @@
+disabled_rules:
+  - line_length
+excluded:
+  - Carthage
+  - Pods
+  - MyPlayground.playground
+  - vendor/bundle
+variable_name:
+  excluded:
+    - id
+type_name:
+  max_length:
+    warning: 50
+    error: 80
+trailing_comma:
+  mandatory_comma: true
