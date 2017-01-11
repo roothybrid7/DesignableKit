@@ -417,6 +417,7 @@
 				218F20221E26459500B85D8E /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Debug;
 		};
 		OBJ_17 /* Build configuration list for PBXNativeTarget "DesignableKit" */ = {
 			isa = XCConfigurationList;
