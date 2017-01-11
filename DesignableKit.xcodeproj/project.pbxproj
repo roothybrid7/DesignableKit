@@ -6,6 +6,20 @@
 	objectVersion = 46;
 	objects = {
 
+/* Begin PBXAggregateTarget section */
+		218F201F1E26459500B85D8E /* SwiftLint */ = {
+			isa = PBXAggregateTarget;
+			buildConfigurationList = 218F20201E26459500B85D8E /* Build configuration list for PBXAggregateTarget "SwiftLint" */;
+			buildPhases = (
+				218F20231E2645BC00B85D8E /* ShellScript */,
+			);
+			dependencies = (
+			);
+			name = SwiftLint;
+			productName = SwiftLint;
+		};
+/* End PBXAggregateTarget section */
+
 /* Begin PBXBuildFile section */
 		218F200E1E263BB200B85D8E /* CALayer+UIColorConfigurable.swift in Sources */ = {isa = PBXBuildFile; fileRef = 218F200D1E263BB200B85D8E /* CALayer+UIColorConfigurable.swift */; };
 		218F20151E263BBC00B85D8E /* DesignableView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 218F200F1E263BBC00B85D8E /* DesignableView.swift */; };
@@ -167,6 +181,13 @@
 			isa = PBXProject;
 			attributes = {
 				LastUpgradeCheck = 9999;
+				TargetAttributes = {
+					218F201F1E26459500B85D8E = {
+						CreatedOnToolsVersion = 8.2.1;
+						DevelopmentTeam = CRP7G7R842;
+						ProvisioningStyle = Automatic;
+					};
+				};
 			};
 			buildConfigurationList = OBJ_2 /* Build configuration list for PBXProject "DesignableKit" */;
 			compatibilityVersion = "Xcode 3.2";
@@ -182,9 +203,26 @@
 			targets = (
 				OBJ_16 /* DesignableKit */,
 				OBJ_23 /* DesignableKitTests */,
+				218F201F1E26459500B85D8E /* SwiftLint */,
 			);
 		};
 /* End PBXProject section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		218F20231E2645BC00B85D8E /* ShellScript */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "if which swiftlint >/dev/null; then\nswiftlint\nelse\necho \"warning: SwiftLint not installed, download from https://github.com/realm/SwiftLint\"\nfi";
+		};
+/* End PBXShellScriptBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
 		OBJ_20 /* Sources */ = {
@@ -220,6 +258,22 @@
 /* End PBXTargetDependency section */
 
 /* Begin XCBuildConfiguration section */
+		218F20211E26459500B85D8E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				DEVELOPMENT_TEAM = CRP7G7R842;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		218F20221E26459500B85D8E /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				DEVELOPMENT_TEAM = CRP7G7R842;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
 		OBJ_18 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
@@ -356,6 +410,14 @@
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
+		218F20201E26459500B85D8E /* Build configuration list for PBXAggregateTarget "SwiftLint" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				218F20211E26459500B85D8E /* Debug */,
+				218F20221E26459500B85D8E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
 		OBJ_17 /* Build configuration list for PBXNativeTarget "DesignableKit" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
