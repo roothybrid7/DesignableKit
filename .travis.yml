@@ -1,0 +1,14 @@
+language: objective-c
+osx_image: xcode8.2
+cache:
+  directories:
+    - vendor/bundle
+before_install:
+  - brew update
+install:
+  - brew upgrade swiftlint || brew install swiftlint
+  - gem install xcpretty
+script:
+  - swiftlint
+  # SEE: https://github.com/travis-ci/travis-ci/issues/7031 
+  - set -o pipefail && xcodebuild -scheme DesignableKit -destination 'platform=iOS Simulator,name=iPhone 7,OS=10.1' test | xcpretty
