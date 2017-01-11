@@ -7,8 +7,14 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		OBJ_21 /* DesignableKit.swift in Sources */ = {isa = PBXBuildFile; fileRef = OBJ_9 /* DesignableKit.swift */; };
-		OBJ_28 /* DesignableKitTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = OBJ_12 /* DesignableKitTests.swift */; };
+		218F200E1E263BB200B85D8E /* CALayer+UIColorConfigurable.swift in Sources */ = {isa = PBXBuildFile; fileRef = 218F200D1E263BB200B85D8E /* CALayer+UIColorConfigurable.swift */; };
+		218F20151E263BBC00B85D8E /* DesignableView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 218F200F1E263BBC00B85D8E /* DesignableView.swift */; };
+		218F20161E263BBC00B85D8E /* ExtendedNavBarView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 218F20101E263BBC00B85D8E /* ExtendedNavBarView.swift */; };
+		218F20171E263BBC00B85D8E /* UIScrollView+Configurable.swift in Sources */ = {isa = PBXBuildFile; fileRef = 218F20121E263BBC00B85D8E /* UIScrollView+Configurable.swift */; };
+		218F20181E263BBC00B85D8E /* UITextView+Configurable.swift in Sources */ = {isa = PBXBuildFile; fileRef = 218F20131E263BBC00B85D8E /* UITextView+Configurable.swift */; };
+		218F20191E263BBC00B85D8E /* UIView+LayerConfigurable.swift in Sources */ = {isa = PBXBuildFile; fileRef = 218F20141E263BBC00B85D8E /* UIView+LayerConfigurable.swift */; };
+		218F201C1E263BE100B85D8E /* CALayerConfigurableTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 218F201A1E263BDE00B85D8E /* CALayerConfigurableTests.swift */; };
+		218F201E1E263E4F00B85D8E /* UILayerConfifurable.swift in Sources */ = {isa = PBXBuildFile; fileRef = 218F201D1E263E4F00B85D8E /* UILayerConfifurable.swift */; };
 		OBJ_30 /* DesignableKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = OBJ_14 /* DesignableKit.framework */; };
 /* End PBXBuildFile section */
 
@@ -23,11 +29,19 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
-		OBJ_12 /* DesignableKitTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DesignableKitTests.swift; sourceTree = "<group>"; };
+		218F200D1E263BB200B85D8E /* CALayer+UIColorConfigurable.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "CALayer+UIColorConfigurable.swift"; sourceTree = "<group>"; };
+		218F200F1E263BBC00B85D8E /* DesignableView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DesignableView.swift; sourceTree = "<group>"; };
+		218F20101E263BBC00B85D8E /* ExtendedNavBarView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ExtendedNavBarView.swift; sourceTree = "<group>"; };
+		218F20111E263BBC00B85D8E /* Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		218F20121E263BBC00B85D8E /* UIScrollView+Configurable.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "UIScrollView+Configurable.swift"; sourceTree = "<group>"; };
+		218F20131E263BBC00B85D8E /* UITextView+Configurable.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "UITextView+Configurable.swift"; sourceTree = "<group>"; };
+		218F20141E263BBC00B85D8E /* UIView+LayerConfigurable.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "UIView+LayerConfigurable.swift"; sourceTree = "<group>"; };
+		218F201A1E263BDE00B85D8E /* CALayerConfigurableTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CALayerConfigurableTests.swift; sourceTree = "<group>"; };
+		218F201B1E263BDE00B85D8E /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		218F201D1E263E4F00B85D8E /* UILayerConfifurable.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = UILayerConfifurable.swift; sourceTree = "<group>"; };
 		OBJ_14 /* DesignableKit.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; path = DesignableKit.framework; sourceTree = BUILT_PRODUCTS_DIR; };
-		OBJ_15 /* DesignableKitTests.xctest */ = {isa = PBXFileReference; lastKnownFileType = file; path = DesignableKitTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		OBJ_15 /* DesignableKitTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; path = DesignableKitTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		OBJ_6 /* Package.swift */ = {isa = PBXFileReference; explicitFileType = sourcecode.swift; path = Package.swift; sourceTree = "<group>"; };
-		OBJ_9 /* DesignableKit.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DesignableKit.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -60,7 +74,8 @@
 		OBJ_11 /* DesignableKitTests */ = {
 			isa = PBXGroup;
 			children = (
-				OBJ_12 /* DesignableKitTests.swift */,
+				218F201A1E263BDE00B85D8E /* CALayerConfigurableTests.swift */,
+				218F201B1E263BDE00B85D8E /* Info.plist */,
 			);
 			name = DesignableKitTests;
 			path = Tests/DesignableKitTests;
@@ -75,7 +90,7 @@
 			name = Products;
 			sourceTree = BUILT_PRODUCTS_DIR;
 		};
-		OBJ_5 /*  */ = {
+		OBJ_5 = {
 			isa = PBXGroup;
 			children = (
 				OBJ_6 /* Package.swift */,
@@ -83,7 +98,6 @@
 				OBJ_10 /* Tests */,
 				OBJ_13 /* Products */,
 			);
-			name = "";
 			sourceTree = "<group>";
 		};
 		OBJ_7 /* Sources */ = {
@@ -97,7 +111,14 @@
 		OBJ_8 /* DesignableKit */ = {
 			isa = PBXGroup;
 			children = (
-				OBJ_9 /* DesignableKit.swift */,
+				218F200D1E263BB200B85D8E /* CALayer+UIColorConfigurable.swift */,
+				218F200F1E263BBC00B85D8E /* DesignableView.swift */,
+				218F20101E263BBC00B85D8E /* ExtendedNavBarView.swift */,
+				218F20111E263BBC00B85D8E /* Info.plist */,
+				218F20121E263BBC00B85D8E /* UIScrollView+Configurable.swift */,
+				218F20131E263BBC00B85D8E /* UITextView+Configurable.swift */,
+				218F20141E263BBC00B85D8E /* UIView+LayerConfigurable.swift */,
+				218F201D1E263E4F00B85D8E /* UILayerConfifurable.swift */,
 			);
 			name = DesignableKit;
 			path = Sources;
@@ -154,7 +175,7 @@
 			knownRegions = (
 				en,
 			);
-			mainGroup = OBJ_5 /*  */;
+			mainGroup = OBJ_5;
 			productRefGroup = OBJ_13 /* Products */;
 			projectDirPath = "";
 			projectRoot = "";
@@ -170,7 +191,13 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 0;
 			files = (
-				OBJ_21 /* DesignableKit.swift in Sources */,
+				218F20171E263BBC00B85D8E /* UIScrollView+Configurable.swift in Sources */,
+				218F200E1E263BB200B85D8E /* CALayer+UIColorConfigurable.swift in Sources */,
+				218F20181E263BBC00B85D8E /* UITextView+Configurable.swift in Sources */,
+				218F20161E263BBC00B85D8E /* ExtendedNavBarView.swift in Sources */,
+				218F201E1E263E4F00B85D8E /* UILayerConfifurable.swift in Sources */,
+				218F20191E263BBC00B85D8E /* UIView+LayerConfigurable.swift in Sources */,
+				218F20151E263BBC00B85D8E /* DesignableView.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -178,7 +205,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 0;
 			files = (
-				OBJ_28 /* DesignableKitTests.swift in Sources */,
+				218F201C1E263BE100B85D8E /* CALayerConfigurableTests.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -202,7 +229,7 @@
 					"$(PLATFORM_DIR)/Developer/Library/Frameworks",
 				);
 				HEADER_SEARCH_PATHS = "$(inherited)";
-				INFOPLIST_FILE = DesignableKit.xcodeproj/DesignableKit_Info.plist;
+				INFOPLIST_FILE = "$(SRCROOT)/Sources/Info.plist";
 				IPHONEOS_DEPLOYMENT_TARGET = 10.1;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
 				OTHER_LDFLAGS = "$(inherited)";
@@ -225,7 +252,7 @@
 					"$(PLATFORM_DIR)/Developer/Library/Frameworks",
 				);
 				HEADER_SEARCH_PATHS = "$(inherited)";
-				INFOPLIST_FILE = DesignableKit.xcodeproj/DesignableKit_Info.plist;
+				INFOPLIST_FILE = "$(SRCROOT)/Sources/Info.plist";
 				IPHONEOS_DEPLOYMENT_TARGET = 10.1;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
 				OTHER_LDFLAGS = "$(inherited)";
@@ -242,16 +269,19 @@
 		OBJ_25 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				EMBEDDED_CONTENT_CONTAINS_SWIFT = YES;
 				FRAMEWORK_SEARCH_PATHS = (
 					"$(inherited)",
 					"$(PLATFORM_DIR)/Developer/Library/Frameworks",
 				);
 				HEADER_SEARCH_PATHS = "$(inherited)";
-				INFOPLIST_FILE = DesignableKit.xcodeproj/DesignableKitTests_Info.plist;
-				LD_RUNPATH_SEARCH_PATHS = "@loader_path/../Frameworks";
+				INFOPLIST_FILE = Tests/DesignableKitTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
 				OTHER_LDFLAGS = "$(inherited)";
 				OTHER_SWIFT_FLAGS = "$(inherited)";
+				PRODUCT_BUNDLE_IDENTIFIER = info.roothy.DesignableKitTests;
+				TARGETED_DEVICE_FAMILY = "1,2";
 				TARGET_NAME = DesignableKitTests;
 			};
 			name = Debug;
@@ -259,16 +289,19 @@
 		OBJ_26 /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				EMBEDDED_CONTENT_CONTAINS_SWIFT = YES;
 				FRAMEWORK_SEARCH_PATHS = (
 					"$(inherited)",
 					"$(PLATFORM_DIR)/Developer/Library/Frameworks",
 				);
 				HEADER_SEARCH_PATHS = "$(inherited)";
-				INFOPLIST_FILE = DesignableKit.xcodeproj/DesignableKitTests_Info.plist;
-				LD_RUNPATH_SEARCH_PATHS = "@loader_path/../Frameworks";
+				INFOPLIST_FILE = Tests/DesignableKitTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
 				OTHER_LDFLAGS = "$(inherited)";
 				OTHER_SWIFT_FLAGS = "$(inherited)";
+				PRODUCT_BUNDLE_IDENTIFIER = info.roothy.DesignableKitTests;
+				TARGETED_DEVICE_FAMILY = "1,2";
 				TARGET_NAME = DesignableKitTests;
 			};
 			name = Release;
