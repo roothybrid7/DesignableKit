@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <Scheme
-   LastUpgradeVersion = "9999"
+   LastUpgradeVersion = "0820"
    version = "1.3">
    <BuildAction
       parallelizeBuildables = "YES"
@@ -14,7 +14,7 @@
             buildForAnalyzing = "YES">
             <BuildableReference
                BuildableIdentifier = "primary"
-               BlueprintIdentifier = "OBJ_16"
+               BlueprintIdentifier = "218F20B11E276AB000B85D8E"
                BuildableName = "DesignableKit.framework"
                BlueprintName = "DesignableKit"
                ReferencedContainer = "container:DesignableKit.xcodeproj">
@@ -28,7 +28,7 @@
             buildForAnalyzing = "YES">
             <BuildableReference
                BuildableIdentifier = "primary"
-               BlueprintIdentifier = "218F201F1E26459500B85D8E"
+               BlueprintIdentifier = "218F20DC1E276B7600B85D8E"
                BuildableName = "SwiftLint"
                BlueprintName = "SwiftLint"
                ReferencedContainer = "container:DesignableKit.xcodeproj">
@@ -46,7 +46,7 @@
             skipped = "NO">
             <BuildableReference
                BuildableIdentifier = "primary"
-               BlueprintIdentifier = "OBJ_23"
+               BlueprintIdentifier = "218F20BA1E276AB100B85D8E"
                BuildableName = "DesignableKitTests.xctest"
                BlueprintName = "DesignableKitTests"
                ReferencedContainer = "container:DesignableKit.xcodeproj">
@@ -56,7 +56,7 @@
       <MacroExpansion>
          <BuildableReference
             BuildableIdentifier = "primary"
-            BlueprintIdentifier = "OBJ_16"
+            BlueprintIdentifier = "218F20B11E276AB000B85D8E"
             BuildableName = "DesignableKit.framework"
             BlueprintName = "DesignableKit"
             ReferencedContainer = "container:DesignableKit.xcodeproj">
@@ -78,7 +78,7 @@
       <MacroExpansion>
          <BuildableReference
             BuildableIdentifier = "primary"
-            BlueprintIdentifier = "OBJ_16"
+            BlueprintIdentifier = "218F20B11E276AB000B85D8E"
             BuildableName = "DesignableKit.framework"
             BlueprintName = "DesignableKit"
             ReferencedContainer = "container:DesignableKit.xcodeproj">
@@ -96,7 +96,7 @@
       <MacroExpansion>
          <BuildableReference
             BuildableIdentifier = "primary"
-            BlueprintIdentifier = "OBJ_16"
+            BlueprintIdentifier = "218F20B11E276AB000B85D8E"
             BuildableName = "DesignableKit.framework"
             BlueprintName = "DesignableKit"
             ReferencedContainer = "container:DesignableKit.xcodeproj">
