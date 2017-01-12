@@ -5,6 +5,7 @@ excluded:
   - Pods
   - MyPlayground.playground
   - vendor/bundle
+  - Examples
 variable_name:
   excluded:
     - id
