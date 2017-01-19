@@ -11,14 +11,14 @@
 #endif
 
 @available(iOS 8.0, tvOS 9.0, *)
-private protocol Configurable {
+fileprivate protocol Configurable {
     var contentInsetString: String { get set }
 }
 
 @available(iOS 8.0, tvOS 9.0, *)
 extension UIScrollView: Configurable {
 
-    @IBInspectable var contentInsetString: String {
+    @IBInspectable public var contentInsetString: String {
         get {
             return NSStringFromUIEdgeInsets(contentInset)
         }
