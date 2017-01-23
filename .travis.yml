@@ -15,14 +15,14 @@ script:
   - set -o pipefail && xcodebuild -scheme DesignableKit -destination 'platform=iOS Simulator,name=iPhone 7,OS=10.1' test | xcpretty
 before_deploy:
   - carthage build --configuration Release --no-skip-current
-  - carthage archive --output "build/RealmUtilityKit-${TRAVIS_TAG}.framework.zip"
+  - carthage archive --output "build/DesignableKit-${TRAVIS_TAG}.framework.zip"
 deploy:
   provider: releases
   skip_cleanup: true
   api_key:
     secure: "YvFCbi31IUZpO/aegMhTN7XQHKQkhAz/gb+qeAzTPcwNQmIJdA5V0Ld/z3Tv6LX15JvKo49MkJZnGxENW8Qi6Yhf292n8bwwKsbOrjbs1LgfXFa5cUHKQ3v2q5u9F3CHDXy2iVp0RPhGwDqKos8zDiAlS72SG67JWfQIDxgwMv1ptujnyrQvLr0R8Nn9q+kFlo+W5iMTYUpHrVE0paWGI0bUlM1O29WgePHdIieWXuXShzrZUig2UydXRZ6sMVwiYYtYmYNMAa3aljLrfsNtqYdYODciaqoSLy7fVHS94WCWPatMVRhwG6/aXoOYUurvm1tDE6QPNZbIAkv2BTMLDUTgWDdhUcqnhuOBCfVKX43d9NvFnmFTH+fuSxvopqFi8WxpygsuMktfV6Qc1rKitBbdJzk78Pu068x9or8ZeH3PAugSmUnYAi1Uo7RLZMqEAG0zL5SB4S2M/hfxcxz3j1wEfsTL3PnfJAnzghulerGPB0d1FxKxbwNmnuLWnLwiS1BItALneVnS5RtVhthRZnv2az9wGkNuQM6xu8t6qlW6mSWc3CjF6rbVh70Jc72JIewXvrAmFVZCL9f+FUW8t+TTlyM6KkKvgO3kxd4DW2WSpsXcNV5oIa2f3PMkXe+OxKND4QvaYeu6brkeOyV5K713fEUnTYr3YW7twIHcPIc="
   file_glob: true
-  file: 'build/RealmUtilityKit-*.framework.zip'
+  file: 'build/DesignableKit-*.framework.zip'
   on:
     all_branches: true
     tags: true
